@@ -1,3 +1,4 @@
 #!/bin/bash
-cd /home/ec2-user/Simplybyte_calculator-new
-nohup node server.js > output.log 2>&1 &
+echo "===> Starting Node.js application..."
+cd /home/ec2-user/simplybyte_calculator-new
+nohup node server.js > app.log 2>&1 &
