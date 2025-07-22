@@ -16,6 +16,6 @@ http.createServer((req, res) => {
       res.end(content, 'utf-8');
     }
   });
-}).listen(PORT, () => {
+}).listen(5000, '0.0.0.0',() => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
