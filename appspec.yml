@@ -4,10 +4,7 @@ files:
   - source: /
     destination: /home/ec2-user/Simplybyte_calculator-new
 hooks:
-  ApplicationStop:
-    - location: scripts/stop.sh
-      timeout: 300
-      runas: ec2-user
+  
   BeforeInstall:
     - location: scripts/install.sh
       timeout: 300
