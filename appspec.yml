@@ -3,8 +3,7 @@ os: linux
 
 files:
   - source: /
-    destination: /home/ec2-user/Simplybyte_calculator-new
-    overwrite: true
+    destination: /home/ec2-user/simplybyte_calculator-new
 
 hooks:
   BeforeInstall:
